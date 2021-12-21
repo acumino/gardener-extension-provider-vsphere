@@ -4,8 +4,8 @@ data:
   "csi-auth-check": "true"
   "online-volume-extend": "true"
   "trigger-csi-fullsync": "false"
-  "async-query-volume": "false"
-  "improved-csi-idempotency": "false"
+  "async-query-volume": "true"
+  "improved-csi-idempotency": "true"
   "block-volume-snapshot": "false"
 kind: ConfigMap
 metadata:
